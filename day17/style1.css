@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+}
+body{
+    background: url(https://marketplace.canva.com/EAD2962NKnQ/2/0/400w/canva-rainbow-gradient-pink-and-purple-virtual-background-LrNk7fAXxw8.jpg);
+}
+li{
+    display: inline;
+    margin: 15px;
+}
+ul{
+    margin-left: 1100px;
+}
+nav{
+    background-color: rgb(188, 143, 230);
+    height: 50px;
+    padding-top: 22px;
+    color: black;
+}
+h1{
+    margin-top: 130px;
+    text-align: center;
+}
+.one{
+    margin-left: 600px;
+    margin-top: 80px;
+}
+.two{
+    margin-left: 150px;
+    margin-top: 80px;
+
+}
+button{
+    height: 40px;
+    border-radius: 10px;
+    background-color: azure;
+}

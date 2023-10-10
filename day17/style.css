@@ -1,0 +1,9 @@
+img{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    z-index: -1;
+}
+p {
+    margin: 0px;
+}

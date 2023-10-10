@@ -1,0 +1,176 @@
+/* Define the global or root variables */
+:root{
+    --primarycolor: #213555;
+    --backgroundcolor: #F5EFE7;
+    --primaryaccentcolor: #4F709C;
+    --secondarycolor: #D8C4B6;
+    --whitecolor : white;
+    --blackcolor: #222222;
+    --primaryFont: 'Open Sans' , sans-serif;
+    --cursiveFont:'Pacifico' , cursive;
+    --navbarheight: 3rem;
+}
+/* Main CSS */
+body{
+    background-color: var(--backgroundcolor);
+    color: var(--primarycolor);
+    font-family: var(--primaryFont);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+a{
+    text-decoration: none;
+    color: var(--primarycolor);
+}
+a:hover{
+    color: var(--primaryaccentcolor);
+
+}
+.navigation{
+    background-color: var(--whitecolor);
+    height: var(--navbarheight);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo{
+    display: flex;
+    padding-left: 20px;
+    width: 12rem;
+    align-items: center;
+}
+
+.logoImage{
+    padding: 8px;
+    height: 2rem;
+    /* float:left; */
+}
+
+.contactImage{
+    padding: 8px;
+    height: 2rem;
+    margin-right: 40px;
+    
+}
+
+
+.MenuItems{
+    flex-grow: 2;
+}
+
+.MenuItem{
+    margin-left: 20px;
+}
+
+
+
+/* Banner */
+.banner{
+    display: flex;
+    height: 450px;
+    background: linear-gradient(45deg, var(--secondarycolor), var(--primaryaccentcolor));
+    /* background-color: var(--secondarycolor); */
+     filter:drop-shadow(0px 5px 10px grey);       /* x , y , radius , color */
+     justify-content: space-around;
+     align-items: center;
+     margin-bottom: 5px;
+}
+.bannerLeft{
+    width: 50%;
+}
+.bannerImage{
+    height: 300px;
+    border-radius: 100%;
+}
+.greeting{
+    font-family: var(--cursiveFont);
+    font-size: 1.25rem;
+
+
+}
+.title{
+    font-size: 2.5rem;
+    color: white;
+}
+.titleSpan{
+    display: inline-block;
+    background-color: var(--primarycolor);
+    padding: 0.5rem;
+    margin: 5px 0px;
+}
+.description{
+    margin: 30px 0px;
+    line-height: 2rem;
+}
+.showCVButton{
+    background : linear-gradient(
+        white , rgb(205,205,205) , rgb(215,215,215));
+    padding: 10px 15px ;
+    border-radius: 5px;
+    filter: drop-shadow(5px 5px 3px grey);
+}
+
+.showCVButton:hover{
+    background-color: linear-gradient(
+        white , rgb(215,215,215)
+    );
+}
+/* Services section */
+.services{
+    margin: 80px;
+}
+.servicetext{
+    text-align: center;
+    text-transform: uppercase;
+}
+.TextSubHeading{
+    color: var(--primaryaccentcolor);
+    font-size: 1.25rem;
+    letter-spacing: 0.4rem;
+}
+.TextHeading{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.serviceCards{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.serviceCard{
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 2px;
+    filter: drop-shadow(1px 1px 1px #aaaa);
+    /* margin: 15px; */
+    padding: 40px;
+}
+.serviceCard:hover{
+    background-color: white;
+    filter: drop-shadow(3px 3px 8px grey);
+}
+.serviceIconDiv{
+    color: white;
+    background-color: rgb(80, 80,118);
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.serviceIcon{
+    font-size: 3rem;
+    color: rgb(227, 218, 218);
+}
+.serviceTitle{
+    font-size: 1.75rem;
+    margin: 20px 0px;
+}
+.serviceFeature{
+    font-size: 1rem;
+    margin: 10px 0px ;
+}
+.serviceFeatureIcon{
+    font-size: 1rem;
+}

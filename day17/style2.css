@@ -1,0 +1,34 @@
+p{
+    color:black;
+}
+p:hover{
+    height: ;
+    width: 100px;
+    color:aqua;
+}
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(232, 21, 116);
+    margin: 50px;
+    transition: width 1s,height 1s,transform 10s;
+}
+div:hover{
+    height: 100px;
+    width: 100px;
+    transform: translate(700px);
+    /* transform: rotate(180deg); */
+    /* transform: rotate(20deg); */
+}
+    
+img{
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+}
+img:hover{
+    /* transform: rotate(30deg); */
+    /* transform: scale(2,2); */
+    /* transform: translate(100px,100px); */
+    transform: skew(10deg);
+}

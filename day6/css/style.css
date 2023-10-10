@@ -1,0 +1,17 @@
+/* Color styling in CSS */
+body{
+    background-color: rgb(62,43,186);
+}
+.heading {
+    background-color: #c9622a;
+}
+.para {
+    background-color: rgba(51,170,51,0.7);
+}
+/* Dimensions */
+.box {
+    background-color: aqua;
+    width: 40%;
+    height: 10px;
+    font-size: 2em; /* 1em=16px */
+}

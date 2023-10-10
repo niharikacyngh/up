@@ -1,0 +1,19 @@
+#git-scm.com
+git init
+
+git status
+git add .
+
+#first time
+git config --global user.name "Niharika Singh"
+git config --global user.email "niharikacyngh@gmail.com" 
+git commit -m "your message"
+
+#first time
+git remote remove origin
+git remote add origin "link"
+
+#Daily Commands
+git add .
+git commit -m "daily comment"
+git push origin main

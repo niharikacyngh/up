@@ -1,0 +1,20 @@
+<tag_name atr="value" atr="value" atr="value" ...>
+cont
+</Tag_name>
+
+29 September,2023
+CSS:
+1.inline(in tag)
+2.internal-
+3.external
+
+tag_name or class_name {
+style:value;
+style:value;
+style:value;
+style:value;
+}
+
+30 September,2023
+Padding
+Margin
