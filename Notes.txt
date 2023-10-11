@@ -22,3 +22,11 @@ Margin
 
 Front end= html,CSS,javascript,reactJS
 Back-end= 
+
+variables--- var--variable and data both change,let--data change,const--both cannot change
+datatypes
+if else conditions
+loops
+funtion
+array
+oops
