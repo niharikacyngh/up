@@ -18,3 +18,7 @@ style:value;
 30 September,2023
 Padding
 Margin
+
+
+Front end= html,CSS,javascript,reactJS
+Back-end= 
