@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      Enter No:<input type="text" name="number" id="number" /><br /><br />
+      <input type="button" value="Click" onclick="double()" />
+    </form>
+    <script>
+      function double() {
+        var number = document.getElementById("number").value;
+        alert(number * number);
+      }
+    </script>
+  </body>
+</html>

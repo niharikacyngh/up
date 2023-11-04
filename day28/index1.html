@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class Ra {
+            constructor() {
+                var a = parseInt(prompt("Enter the first number:"));
+                var b = parseInt(prompt("Enter the second number:"));
+                let c = a + b;
+                let d= a - b;
+                document.write("The addition of "+ a +" and "+ b +" is " +"</br>"+ c);
+                document.write("The subtraction of "+ a +" and "+ b +" is " +"</br>"+ d);
+            }
+            xy(a,b) {
+                document.write( a+b + "</br>");
+            }
+            zz(a,b) {
+                document.write(a-b +"</br>");
+            }
+        }
+        var a = new Ra;
+        a.xy();
+        a.zz();
+    </script>
+</body>
+
+</html>
